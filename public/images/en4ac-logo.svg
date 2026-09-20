@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="988" height="988" viewBox="0 0 988 988" role="img" aria-labelledby="title desc">
+  <title id="title">Four-part creative technology infographic</title>
+  <desc id="desc">A circular infographic divided into analytics, writing, coding, and development settings sections, with a plain pen nib in the center.</desc>
+
+  <defs>
+    <clipPath id="disk">
+      <circle cx="494" cy="494" r="442"/>
+    </clipPath>
+    <path id="borderLeaf" d="M397 63A442 442 0 0 1 494 52L494 112C519 97 553 98 591 119C552 131 523 133 494 151C471 117 441 89 397 63Z"/>
+    <linearGradient id="silver" x1="52" y1="52" x2="494" y2="494" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f0ea"/>
+      <stop offset="0.45" stop-color="#d1d2cf"/>
+      <stop offset="1" stop-color="#989c9f"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="510" y1="90" x2="900" y2="490" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#079eaa"/>
+      <stop offset="0.52" stop-color="#028793"/>
+      <stop offset="1" stop-color="#006f7d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="120" y1="510" x2="470" y2="920" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b5d9b"/>
+      <stop offset="0.5" stop-color="#064a81"/>
+      <stop offset="1" stop-color="#002f62"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="510" y1="510" x2="900" y2="910" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eaaa00"/>
+      <stop offset="0.5" stop-color="#dc8900"/>
+      <stop offset="1" stop-color="#c96b00"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="430" y1="390" x2="550" y2="610" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efa900"/>
+      <stop offset="1" stop-color="#d97c00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- One uninterrupted disk. The canvas outside it stays transparent. -->
+  <g clip-path="url(#disk)">
+    <rect x="52" y="52" width="442" height="442" fill="url(#silver)"/>
+    <rect x="494" y="52" width="442" height="442" fill="url(#teal)"/>
+    <rect x="52" y="494" width="442" height="442" fill="url(#blue)"/>
+    <rect x="494" y="494" width="442" height="442" fill="url(#orange)"/>
+  </g>
+
+  <!-- The leaves extend inward from the border while the outer silhouette stays circular. -->
+  <g clip-path="url(#disk)" fill="#e8e5de">
+    <use href="#borderLeaf"/>
+    <use href="#borderLeaf" transform="rotate(90 494 494)"/>
+    <use href="#borderLeaf" transform="rotate(180 494 494)"/>
+    <use href="#borderLeaf" transform="rotate(270 494 494)"/>
+  </g>
+
+  <circle cx="494" cy="494" r="442" fill="none" stroke="#e8e5de" stroke-width="5"/>
+
+  <!-- The dividers stop at the center medallion and do not cut the outer circle. -->
+  <g fill="#e8e5de">
+    <path d="M113 488H384.164A110 110 0 0 0 384.164 500H113Z"/>
+    <path d="M603.836 488H875V500H603.836A110 110 0 0 0 603.836 488Z"/>
+    <path d="M488 113H500V384.164A110 110 0 0 0 488 384.164Z"/>
+    <path d="M488 603.836A110 110 0 0 0 500 603.836V875H488Z"/>
+  </g>
+
+  <!-- Analytics icon. -->
+  <g clip-path="url(#disk)" transform="translate(35 38)" stroke="#003f78" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M185 205V365H365" fill="none"/>
+    <path d="M202 306L242 253L286 268L343 188" fill="none"/>
+    <circle cx="242" cy="253" r="10" fill="#e9e9e5"/>
+    <circle cx="286" cy="268" r="10" fill="#e9e9e5"/>
+    <circle cx="343" cy="188" r="10" fill="#e9e9e5"/>
+  </g>
+  <g clip-path="url(#disk)" transform="translate(35 38)" fill="#003f78">
+    <rect x="202" y="323" width="31" height="38" rx="2"/>
+    <rect x="245" y="291" width="31" height="70" rx="2"/>
+    <rect x="288" y="283" width="31" height="78" rx="2"/>
+    <rect x="331" y="230" width="31" height="131" rx="2"/>
+  </g>
+
+  <!-- Document and pencil icon. -->
+  <g clip-path="url(#disk)" transform="translate(-37 35)" fill="none" stroke="#f7f5ef" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="630" y="185" width="145" height="180" rx="10"/>
+    <path d="M651 220H740M651 246H720M651 272H708M651 298H692"/>
+    <path d="M654 345L677 305L766 216L792 242L703 331L662 353Z" fill="#0799a3"/>
+    <path d="M677 305L703 331M757 225L783 251M654 345L662 353"/>
+    <path d="M770 212L778 204C784 198 793 199 798 204C804 210 804 219 798 225L790 233"/>
+  </g>
+
+  <!-- Tabler code icon. -->
+  <g transform="translate(186.4 554.4) scale(10.3)" fill="none" stroke="#f7f5ef" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 8L3 12L7 16"/>
+    <path d="M17 8L21 12L17 16"/>
+    <path d="M14 4L10 20"/>
+  </g>
+
+  <!-- Tabler settings-code icon. -->
+  <g transform="translate(547 552) scale(10.5)" fill="none" stroke="#f7f5ef" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M11.482 20.924a1.666 1.666 0 0 1-1.157-1.241a1.724 1.724 0 0 0-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066-2.573c-.94-1.543.826-3.31 2.37-2.37c1 .608 2.296.07 2.572-1.065c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.312.318 1.644 1.794.995 2.697"/>
+    <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/>
+    <path d="M20 21l2-2l-2-2"/>
+    <path d="M17 17l-2 2l2 2"/>
+  </g>
+
+  <!-- Center medallion with Lucide pen-tool icon. -->
+  <circle cx="494" cy="494" r="110" fill="#e8e5de" stroke="#deddd8" stroke-width="2"/>
+  <g transform="translate(494 509) rotate(45) scale(6.2) translate(-12 -12)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414Z" fill="url(#gold)" stroke="url(#gold)" stroke-width="1.5"/>
+    <path d="M18 13L16.625 6.126a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18Z" fill="url(#gold)" stroke="url(#gold)" stroke-width="1.5"/>
+    <path d="M2.3 2.3L9.586 9.586" fill="none" stroke="#fff" stroke-width="1.35"/>
+    <circle cx="11" cy="11" r="2" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

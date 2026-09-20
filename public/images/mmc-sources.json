@@ -1,0 +1,36 @@
+{
+  "credit": "Neil Squire / Makers Making Change",
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "images": [
+    {
+      "file": "mmc-switch.jpg",
+      "source": "https://github.com/makersmakingchange/Low-Profile-Switch/blob/main/Photos/Low-Profile-Switch.jpg",
+      "changes": "Cropped and resized"
+    },
+    {
+      "file": "mmc-joystick.png",
+      "source": "https://github.com/makersmakingchange/Oak-Compact-Joystick/blob/main/Photos/Oak_Compact_Joystick.png",
+      "changes": "None"
+    },
+    {
+      "file": "mmc-lipsync.jpg",
+      "source": "https://github.com/makersmakingchange/LipSync/blob/main/Photos/LipSync-4.jpg",
+      "changes": "Resized"
+    },
+    {
+      "file": "mmc-audible-hoop.jpg",
+      "source": "https://unsplash.com/photos/1546519638-68e109498ffc",
+      "changes": "Resized; representative photo because the MMC idea page has no project image"
+    },
+    {
+      "file": "mmc-connect-board.jpg",
+      "source": "https://github.com/makersmakingchange/Connect_Board/blob/main/Photos/Connect_Board_with_AT.jpg",
+      "changes": "None"
+    },
+    {
+      "file": "mmc-switch-cutout.png",
+      "source": "https://www.makersmakingchange.com/sfsites/c/cms/delivery/media/MCWB6LSJPLBZG2XK33E557M67N4U",
+      "changes": "Cropped to switch and removed background"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "file": "eanes-connect-four.jpg",
+      "source": "https://www.flickr.com/photos/29959705@N08/14831668726",
+      "credit": "elliemcc11",
+      "license": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "changes": "Displayed with a responsive crop; representative image while the En4AC project is in development"
+    },
+    {
+      "file": "eanes-isd-logo.png",
+      "source": "https://www.eanesisd.net/uploaded/themes/default/images/EISDlogoWEB_Final.png",
+      "changes": "None"
+    },
+    {
+      "file": "eanes-mark.png",
+      "source": "https://www.eanesisd.net/uploaded/themes/default/images/EISDlogoWEB_Final.png",
+      "changes": "Cropped to the Eanes mark"
+    }
+  ]
+}
