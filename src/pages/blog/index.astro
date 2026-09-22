@@ -1,0 +1,42 @@
+---
+import BlogPage from '../../layouts/BlogPage.astro';
+import { formatPostDate, getPosts, postDateIso } from '../../lib/posts';
+
+const posts = await getPosts();
+
+// Keep each post's gradient stable when posts are reordered or the site is rebuilt.
+function coverVariant(id: string) {
+  return Array.from(id).reduce((hash, char) => (hash * 31 + char.charCodeAt(0)) >>> 0, 0) % 4;
+}
+---
+
+<BlogPage title="Blog | Enrichment For A Cause" description="Project updates from Enrichment For A Cause.">
+  {
+    posts.length === 0 ? (
+      <section class="blog-empty section">
+        <h1>Blog</h1>
+        <p>No posts yet.</p>
+      </section>
+    ) : (
+      <section class="blog-index section">
+        <h1>Blog</h1>
+        <ul class="blog-grid">
+          {posts.map((post) => (
+            <li>
+              <a href={`/blog/${post.id}`}>
+                <span class="blog-cover" data-spot={coverVariant(post.id)}>
+                  {post.data.cover && <img src={post.data.cover} alt="" />}
+                </span>
+                <h2>{post.data.title}</h2>
+                <p class="blog-meta">
+                  {post.data.category && <span>{post.data.category}</span>}
+                  <time datetime={postDateIso(post.data.date)}>{formatPostDate(post.data.date, 'short')}</time>
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+</BlogPage>

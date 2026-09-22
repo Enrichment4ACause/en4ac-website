@@ -1,0 +1,22 @@
+---
+import { Header, SiteFooter } from '../components/Site.tsx';
+import Base from './Base.astro';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<Base title={title} description={description}>
+  <div class="site theme-one blog-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header client:load page="blog" />
+    <main id="main">
+      <slot />
+      <SiteFooter />
+    </main>
+  </div>
+</Base>
